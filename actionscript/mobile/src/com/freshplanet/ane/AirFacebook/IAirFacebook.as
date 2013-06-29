@@ -133,5 +133,11 @@ package com.freshplanet.ane.AirFacebook
 		 * is true.
 		 */
 		function dialog( method : String, parameters : Object = null, callback : Function = null, allowNativeUI : Boolean = true ) : void;
+
+		/** Register the appId for install tracking. */
+		function publishInstall( appId:String ):void;
+
+		/** Go to specified Facebook page */
+		function goToPage( page:String ):void;
 	}
 }

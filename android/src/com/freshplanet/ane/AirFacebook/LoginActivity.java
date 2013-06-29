@@ -54,9 +54,9 @@ public class LoginActivity extends Activity
 		// Get extra values
 		Bundle extras = this.getIntent().getExtras();
 		ArrayList<String> permissions = new ArrayList(Arrays.asList(extras.getStringArray("permissions")));
-		String type = extras.getString("type", "read");
+		String type = extras.getString("type");
 
-		reauthorize = extras.getBoolean("reauthorize", false);
+		reauthorize = extras.getBoolean("reauthorize");
 		
 		AirFacebookExtension.log("INFO - LoginActivity.onCreate, session.isClosed " + AirFacebookExtensionContext.session.isClosed() + ", state " + AirFacebookExtensionContext.session.getState());
 		

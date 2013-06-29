@@ -35,6 +35,7 @@ public class OpenSessionWithPermissionsFunction implements FREFunction
 
 	public FREObject call(FREContext arg0, FREObject[] arg1)
 	{
+		AirFacebookExtension.log("OpenSessionWithPermissionsFunction");
 		// Retrieve permissions
 		FREArray permissionsArray = (FREArray)arg1[0];
 		String type = null;

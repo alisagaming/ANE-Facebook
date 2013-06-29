@@ -57,6 +57,7 @@ DEFINE_ANE_FUNCTION(reauthorizeSessionWithPermissions);
 DEFINE_ANE_FUNCTION(closeSessionAndClearTokenInformation);
 DEFINE_ANE_FUNCTION(requestWithGraphPath);
 DEFINE_ANE_FUNCTION(dialog);
+DEFINE_ANE_FUNCTION(publishInstall);
 
 
 // ANE Setup

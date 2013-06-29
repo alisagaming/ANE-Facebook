@@ -189,6 +189,16 @@ package com.freshplanet.ane.AirFacebook
 		}
 		
 		
+		public function publishInstall(appId:String):void
+		{
+			_context.call('publishInstall', appId);
+		}
+
+		public function goToPage(page:String):void
+		{
+			_context.call('goToPage', page);
+		}
+		
 		// --------------------------------------------------------------------------------------//
 		//																						 //
 		// 									 	PRIVATE API										 //

@@ -134,6 +134,15 @@ package com.freshplanet.ane.AirFacebook
 			callback(null);
 		}
 		
+		public function publishInstall(appId:String):void
+		{
+			return;
+		}
+
+		public function goToPage(page:String):void
+		{
+			return;
+		}
 		
 		// --------------------------------------------------------------------------------------//
 		//																						 //
